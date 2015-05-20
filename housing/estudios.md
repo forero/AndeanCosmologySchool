@@ -1,29 +1,29 @@
 Estudio 1
 ==========
-* Juan Carlos  Basto Pineda 	
-*  Sergio Antonio Contreras Hantke 	
+* (COL) Juan Carlos  Basto Pineda 	
+* (CL) Sergio Antonio Contreras Hantke 	
 
 Estudio 2
 ==========
-* 	Guido 	Granda Muñoz 
-* 	Elio William Cori Casimiro 
+* (PE) Guido 	Granda Muñoz 
+* (PE)	Elio William Cori Casimiro 
 
 Estudio 3
 =========
-* Daysi Yessenia 	Quinatoa Chuquitarco 	
-* Miryam Paola Flores Sánchez 	
+* (EC) Daysi Yessenia 	Quinatoa Chuquitarco 	
+* (CL) Miryam Paola Flores Sánchez 	
 
 Estudio 4
 =========
-* Jesús Alejandro Rodríguez Sandoval 	
-* Paúl Adrian Calderón 	
+* (VE) Jesús Alejandro Rodríguez Sandoval 	
+* (VE) Paúl Adrian Calderón 	
 
 Estudio 5
 ==========
-* Ling Alfonso  Sequera Marin 	
-* Souad María Tabban Sabbagh 	
+* (VE) Ling Alfonso  Sequera Marin 	
+* (VE) Souad María Tabban Sabbagh 	
 
 Estudio 6
 =========
-* Magali Yanina 	Tapia Cruz 	
-* Abigail 	 Coraite Ovando 	
+* (BO) Magali Yanina 	Tapia Cruz 	
+* (BO) Abigail 	 Coraite Ovando 	
