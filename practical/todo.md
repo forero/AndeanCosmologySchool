@@ -1,0 +1,3 @@
+- Escarapelas para participantes.
+- Guia de Colombia para Yehuda.
+- Mapa de Bogota X 3 (Yehuda, Stefan, Florian).
