@@ -36,7 +36,7 @@
 * Write a code for D(z | Omega_m, Omega_Lambda)
 
 
-#Friday:
+#Friday
 
 ##Lecture 
 * Random Gaussian fields - general introduction
