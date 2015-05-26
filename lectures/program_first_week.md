@@ -26,7 +26,6 @@
 ##Lecture
 
 * Gravitational instability in an expanding universe: linear theory
-
 * The Zeldovich approximation
 
 ##Hands-on session
@@ -41,8 +40,8 @@
 
 ##Lecture 
 * Random Gaussian fields - general introduction
-* (if time permits - constrained realizations of Gaussian fields. Alternatively - the cosmic web (T-web, V-web)
+* (if time permits - constrained realizations of Gaussian fields. Alternatively  the cosmic web (T-web, V-web)
 
 ##Hands-on session
 
-*Random realizations of Gaussian fields - setting up initial conditions for simulations 
+* Random realizations of Gaussian fields - setting up initial conditions for simulations 
