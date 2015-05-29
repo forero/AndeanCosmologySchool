@@ -24,7 +24,7 @@
 # Thursday
 
 ##  Lecture
-    * LSS and Redshift Space Distortions
+* LSS and Redshift Space Distortions
 
 ## Hands-on session
 
