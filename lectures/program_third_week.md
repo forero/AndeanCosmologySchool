@@ -2,18 +2,18 @@
 # Tuesday
 
 ## Lecture
- * LSS and BAO
+ * Large Scale Structure and Baryon Acoustic Oscillations
  * Likelihood analysis
 
 ## Hands-on session
-* implement your own Markov Chain Monte Carlo
+* Implement your own Markov Chain Monte Carlo
 
 # Wednesday
 
 ## Lecture
 
- * continue LSS and BAO
- * asics of LSS analysis (power spectrum, correlation function)
+ * Continue LSS and BAO
+ * Basics of LSS analysis (power spectrum, correlation function)
 
 ## Hands-on session
 
