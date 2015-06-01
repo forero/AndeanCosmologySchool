@@ -7,8 +7,8 @@
 * Gravitational Instability general considerations - top-hat model (EdS) 
 
 ##Hands-on session
-* The Friedmann model: write a code to calculate t(z), Omega_m(z), H(z) 
-* The mass estimation by the timing argument
+* Basics of Unix
+* Basics of Python
 
 #Wednesday
 
@@ -18,7 +18,8 @@
 * Jeans instability
 
 ## Hands-on session
-
+* The Friedmann model: write a code to calculate t(z), Omega_m(z), H(z) 
+* The mass estimation by the timing argument
 * Top-hat model write a code that calculates rho_vir(z), rho_turn_around(z), delta_c(z) for a general model (Omega_m, Omega_lambda)
 
 #Thursday
