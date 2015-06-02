@@ -1,0 +1,235 @@
+\documentclass[12pt]{article}
+\usepackage{enumerate}
+\usepackage[hmargin=2.0cm,vmargin=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{natbib}
+\usepackage{color}
+\usepackage{hyperref} 
+
+
+\title{\begin{LARGE}{ \textsl{Andean Cosmology School \\
+Unix basics cookbook}}
+\end{LARGE}}
+
+\author{Juan Nicol\'as Garavito Camargo}
+
+\begin{document}
+\date{June 2, 2015}
+
+\maketitle
+
+\section{The Terminal}
+
+The terminal is the place in which you are going to 
+interact with the computer. 
+
+\subsection{Opening the terminal}
+
+You can open the terminal by simply going 
+to the ubuntu search button (usually located
+at the top left), type terminal and click 
+on the terminal icon. \\
+
+A faster way in Ubuntu is typing \verb"Ctrl + Alt + t".
+
+\subsection{Terminal commands}
+
+\textbf{Directories:}
+
+The first thing that you want to check 
+is who is logged into the computer.\\
+
+1. \verb+whoami+
+
+{\color{blue} \verb+whoami+ print the username}\\
+
+
+
+2. \verb+pwd+  
+
+{\color{blue} \verb+pwd+ print the current/working directory}\\
+
+3. \verb+ls+
+
+{\color{blue} \verb+ls+ list the directory contents}\\
+
+4. \verb+cd Documents+
+
+{\color{blue} \verb+cd+ change the current directory and go inside the Documents
+directory}\\
+
+5. \verb+ cd ..+ 
+
+{\color{blue} \verb+cd ..+ go up in the directory}\\
+
+6. \verb+mkdir escoan+
+
+{\color{blue}} \verb+mkdir+ makes a new directory call \verb+escoan+.
+\verb+mkdir+\\
+
+7. \verb+cd escoan+\\
+
+8. \verb+mkdir hadsonRF+
+
+{\color{blue} make a new wrongly named directory \verb+hadsonRF+ }\\
+
+9. \verb+rmdir hadsonRF+
+
+{\color{blue} remove the \verb+hadsonRF+ directory}\\
+
+10. \verb+mkdir handson+\\
+
+11. \verb+cd handson+\\
+
+12. \verb+mkdir sesion1+\\
+
+13. \verb+cd sesion1+\\
+
+\textbf{Downloading files:}\\
+
+Now download some data to play with.
+
+14. {\scriptsize{\verb+wget https://raw.githubusercontent.com/forero/AndeanCosmologySchool/master/hands-on/halocatalogue.tar.gz+}} \\
+
+\textbf{Files:}
+
+15. \verb+mkdir data+\\
+
+16. \verb+mv halocatalogue.tar.gz data/+ 
+
+{\color{blue} move \verb+halocatalogue+ to the data folder}\\
+
+17. \verb+cd data+ \\
+
+18. \verb+gunzip halocatalogue.tar.gz+ 
+
+{\color{blue} unzip the \verb+halocatalogue.tar.gz+ file }\\
+
+19. \verb+tar -xvf halocatalogue.tar+ 
+
+{\color{blue} expands the file \verb+halocatalogue.tar+}\\
+
+20. \verb+cp Millenium13 ../+ 
+
+{\color{blue} copy the Millenium13 file to /sesion1}\\
+
+21. \verb+less Millenium13+
+
+{\color{blue} \verb+less+ shows the content of Millenium13}\\
+
+22. \verb+q+
+
+{\color{blue} \verb+q+ exit from Millenium13 file}\\
+
+23. \verb+cat Millenium13+
+
+{\color{blue} Displays all the Millenium13 content to stop press \verb"Ctrl+c"}\\
+
+ 
+24. \verb+head Millenium13+ 
+
+{\color{blue} Shows the first 10 lines of Millenium13, the \verb+-l+ flag
+allows to change the number of lines.}\\
+
+25. \verb+tail Millenium13+
+
+{\color{blue} Shows the last 10 lines of Millenium13.}\\
+
+\textbf{Exploring files:}\\
+
+26. \verb+wc Millenium13+
+
+{\color{blue} counts the number of lines, words, and bytes in Millenium13}\\
+ 
+27. \verb+grep haloId MIllenium13+
+
+{\color{blue} find the haloId word in Millenium13 and print the line in which it appears.}\\
+
+28. \verb+awk '{print $1}' Millenium13 > col1.txt+
+
+{\color{blue} print the first column of the Millenium13 file and redirects the ouptut to \verb+col1.txt+}\\
+
+29. \verb"awk '{print $18+$19}' Millenium13 > xy.txt" \\
+
+30. \verb+awk '{if ($19>100) print $0}'+
+
+{\color{blue} print all lines in which column 19 is greater than 100.}\\
+
+31. \verb+sed 's/haloId/haloID/g' Millenium13 > newID+
+
+{\color{blue} changes haloId for haloID and redirects the ouputu to newID}\\
+
+\textbf{Useful commands}
+
+\verb+history+
+
+\verb"Ctrl + r"
+
+\verb+man+
+
+\verb+Tab+
+
+
+\section*{Scripts and text editors}
+
+To open an emacs file:\\
+
+\texttt{emacs} \verb" halomc.sh &"  \\
+
+The $\&$ would open an external window without freezing
+the terminal.\\
+
+\textbf{Exercise:}
+
+Write a script that makes the folllowing:\\ 
+
+1. Select dark matter halos with masses below
+\verb+m_crit200 < 5+ from the \verb+halocatalog.txt+. Write the 
+$id, x, y, z, m\_crit200, vMax$ columns for this halos in a 
+separate file
+called \verb+haloslowmass.txt+.\\
+
+2. Repeat step 1 for \verb+m_crit200 > 10+, the new file should
+be called \verb+haloshighmass.txt+.\\
+
+3. Change the \verb+.txt+ files to \verb+.csv+ files.  
+
+Cut text:\\
+
+\texttt{Ctrl+w}\\
+
+Copy text:\\
+
+\texttt{M+w}
+
+Paste text:\\
+
+\texttt{Ctrl+y}\\
+
+Save:\\
+
+\texttt{Ctrl+x+s}\\
+
+Exit Emacs:\\
+
+\texttt{Ctrl+x+c}\\
+
+\textsc{Emacs offitial web site:}\\
+\verb"https://www.gnu.org/software/emacs/"\\
+
+\textsc{Usefull manual and tutorials}\\
+\verb"https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html"\\
+\verb"http://www.drpaulcarter.com/cs/emacs.php"\\
+
+
+\subsection{Making a script executable}
+
+\verb"chmod u+x script.sh"
+{\color{blue} chmod changes the file mode of the .sh file}
+
+\subsection{Running a script}
+ \verb+./script.sh+
+\end{document} 
