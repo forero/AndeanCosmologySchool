@@ -1,0 +1,89 @@
+
+\documentclass[11pt]{amsart}
+\usepackage{geometry} % see geometry.pdf on how to lay out the page. There's lots.
+\geometry{a4paper} % or letter or a5paper or ... etc
+% \geometry{landscape} % rotated page geometry
+\parindent 0pt
+\setlength{\parskip}{0.8cm plus4mm minus3mm}
+\def \d {{\rm d}}
+\def \kms {{\rm km s$^{-1}$}}
+\def \Rvir{$  R_{\rm vir}$  }
+\def \rvir {$  R_{\rm vir}$  }
+\def \kmsMpc {{\rm km s$^{-1}$ Mpc$^{-1}$}}
+\newcommand{\hmsun}{{\,\rm h^{-1}M}_\odot}
+\newcommand{\hmpc}{{\,\rm h^{-1}Mpc}}
+
+\title{Project: Press - Schechter Mass Function}
+\author{Yehuda Hoffman}
+\date{June 10, 2015} % delete this line to display the current date
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+\maketitle
+%\tableofcontents
+%
+%\section{}
+%\subsection{}
+
+
+Dear Students,
+
+Here are a few comments, instructions and some hints on calculating the Press - Schechter (PS) mass function:
+
+\paragraph{\bf PS mass function } \hspace{10pt} \\
+Here is a reminder of the PS mass function that we have derived at class:
+\begin{equation}
+\label{eq:eta}
+\eta(M,a)=\sqrt{2\over\pi}\  {\bar{\rho}\over M^2} \ {\delta{^L_c}(a)\over\sigma_M}\  \exp\big[- {(\delta{^L_c}(a))^2\over2\sigma{^2_M}}\big] 
+\  \Big\vert {\d \ln \sigma_M \over\d \ln M } \Big\vert
+\end{equation}
+
+Calculate here the mass function for the present epoch ($a=1.0$) and for the WMAP set of cosmological parameters. The relevant parameters are:\begin{itemize}
+  \item $\sigma_8= \sigma(R=8\hmpc)= 0.817$
+  \item $\Omega_m = 0.279$
+  \item $\Omega_\Lambda = 1 - \Omega_m$
+\end{itemize}
+
+See the note on the $h^{-1}$ scaling below.
+
+\paragraph{\bf Analytical fit to the power spectrum } \hspace{10pt} \\
+For the sake of the present calculation we shall use here an analytical fit the power spectrum. The fit is due to Max Tegmark (reference is missing):
+\begin{equation}
+\label{eq:Pk}
+P(k) = A {k^n \over \Big\{ 1 + \Big[a k / \Gamma+ \big(b k / \Gamma \big)^{3/2} +  \big(c k / \Gamma \big)^2  \Big]^\nu\Big\}^{1 / \nu}}
+\end{equation}
+Where:
+\begin{itemize}
+  \item $n=1$
+  \item $\Gamma = 0.21$
+  \item $a = 6.4 \hmpc$
+  \item $b = 3.0 \hmpc$
+  \item $a = 1.7 \hmpc$
+  \item $\nu = 1.13$
+\end{itemize}
+
+\paragraph{\bf Use of the $h$ scaling } \hspace{10pt} \\
+Distances in cosmology depend on the value of $H_0$ (Hubble's constant) - recalling that in an unperturbed Friedmann universe we have $v=H_0\times {\rm distance}$, where the velocity ($v$) is the observable. It is customary  to parametrize the value of $H_0$ by the following expression: $H_0 = 100\  h\ {\rm km/s/Mpc }$. It follows that one can express masses and distances as if the value of $H_0$ is $100\   {\rm km/s/Mpc }$ and correct for the actual value by using units of $\hmsun$ (for   masses) and 
+$\hmpc$ (for distances). In your calculations use the $h^{-1}$ scaling.
+
+\paragraph{\bf Top-Hat Model: $\delta{^L_c}$ (for $a=1.0$) } \hspace{10pt}\\
+You are supposed to calculate the value of  $\delta{^L_c}$ from the top hat model, assuming the standard $\Lambda$CDM model whose WMAP parameters are given above. To   enable you to work in parallel on the two assignments the following  is provided here:   $\delta{^L_c}=1.67484$ 
+
+\paragraph{\bf Presentation of $\eta(M)$}  \hspace{10pt}\\
+Recall that we have derived the mass function by the following expression: 
+$$\eta(M)={\bar{\rho}\over M} {\partial F(>M)\over\partial M}$$
+If we multiply the two sides of the equation by $M$ we get:
+$$M \eta(M)={\bar{\rho}\over M}  {\partial F(>M)\over\partial \ln M}$$
+Namely, it is the mass function defined per $\ln M$.
+It is customary to present the mass function by $M \eta(M)$. Please do the same, in particular when you plot it.
+
+\bigskip
+If you have any problems with the calculations of the two projects, top hat model and the mass function, please do not hesitate to contact me by mail (hoffman@huji.ac.il). You can do it also after I'll be leaving the school.
+
+Enjoy it,
+
+Yehuda
+
+
+\end{document}
