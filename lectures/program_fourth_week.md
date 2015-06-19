@@ -58,7 +58,7 @@
 
 ## Lecture
 
-*Instrumental signatures
+* Instrumental signatures
 * Imperfections on CCD sensors: tree rings, brighter-fatter effect, edge distortions.
 * Consequences on photometry, astrometry, and weak lensing observables.
 
