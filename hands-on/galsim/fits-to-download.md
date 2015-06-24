@@ -1,1 +1,1 @@
-https://drive.google.com/file/d/0BwcSWKQTvNvmaVRkOWxBbDNjV0k/edit
+https://docs.google.com/uc?id=0BwcSWKQTvNvmaVRkOWxBbDNjV0k&export=download
