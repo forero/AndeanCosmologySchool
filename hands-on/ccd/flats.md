@@ -8,4 +8,3 @@ https://drive.google.com/file/d/0BwcSWKQTvNvmMXJyREswYTBFU0U/view
 
 https://drive.google.com/file/d/0BwcSWKQTvNvmTUw0bGRSeWtkWVE/view
 
-https://drive.google.com/file/d/0BwcSWKQTvNvmMTZRWWxyZ00zR0E/view
